@@ -58,7 +58,7 @@ function App() {
         } else {
             const img = document.createElement("img");
             img.alt = "bear with heart";
-            img.src = "https://media.tenor.com/ixzdyS0HrlkAAAAi/milk-and-mocha-kiss.gif";
+            img.src = "https://media1.tenor.com/m/Cp6Vfn_HBZ8AAAAC/jump-hug-milk-and-mocha.gif";
             container.appendChild(img);
 
             const valentineText = document.createElement("div");
