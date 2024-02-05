@@ -47,11 +47,11 @@ function App() {
         if (yesPressed) {
             const img = document.createElement("img");
             img.alt = "bear with heart";
-            img.src = "https://media1.tenor.com/m/Cp6Vfn_HBZ8AAAAC/jump-hug-milk-and-mocha.gif";
+            img.src = "https://media.tenor.com/ixzdyS0HrlkAAAAi/milk-and-mocha-kiss.gif";
             container.appendChild(img);
 
             const text = document.createElement("div");
-            text.style.marginTop = "10px"; // Adjust margin as needed
+            text.style.marginTop = "10px";
             text.classList.add("text");
             text.textContent = "Yay!";
             container.appendChild(text);
@@ -62,14 +62,14 @@ function App() {
             container.appendChild(img);
 
             const valentineText = document.createElement("div");
-            valentineText.style.marginTop = "10px"; // Adjust margin as needed
+            valentineText.style.marginTop = "10px";
             valentineText.textContent = "Will you be my valentine?";
             container.appendChild(valentineText);
 
             const buttonContainer = document.createElement("div");
             const yesButton = createButton("Yes", handleYesClick);
             const noButton = createButton(getNoButtonText(), NoClick);
-            buttonContainer.style.marginTop = "10px"; // Adjust margin as needed
+            buttonContainer.style.marginTop = "10px";
 
             buttonContainer.appendChild(yesButton);
             buttonContainer.appendChild(noButton);
@@ -81,5 +81,3 @@ function App() {
     render();
     return container;
 }
-
-document.body.appendChild(App());
